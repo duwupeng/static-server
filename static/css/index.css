@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+/*页面main部分左侧开始*/
+.main-left {
+  height: 450px;
+  width: 190px;
+  background: #6e6568;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.main-left li {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 8px;
+}
+.main-left li:hover {
+  background-color: #999395;
+}
+.main-left li a:hover {
+  color: red;
+}
+.main-left li,
+.main-left li a {
+  color: #fff;
+  font-size: 14px;
+  font-family: "microsoft yahei";
+}
+/*页面main部分左侧结束*/
+
+/*页面main部分中间部分开始*/
+.main-center {
+  height: 480px;
+  width: 790px;
+  /*background: pink;*/
+  margin-left: 10px;
+}
+.main-center-top {
+  height: 340px;
+  /*background-color: green;*/
+  position: relative;
+}
+.main-center-top .points {
+  /*width: 182px;*/
+  height: 20px;
+  background-color: rgba(255,255,255,.3);
+  padding-left: 8px;
+  padding-right: 8px;
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -91px;
+  border-radius: 10px;
+}
+.main-center-top .points i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  margin-top: 4px;
+  margin-left: 10px;
+  float: left;
+  border-radius: 6px;
+}
+.main-center-top .points i.noMarginL10{
+  margin-left: 0px;
+}
+.main-center-top .points i.current {
+  background-color: #ff0000;
+}
+.main-center-top .arrow span {
+  display: inline-block;
+  width: 30px;
+  height: 60px;
+  background: rgba(0,0,0,.1);
+  line-height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+}
+.main-center-top .arrow-left {
+  left: 0px;
+}
+.main-center-top .arrow-right {
+  right: 0px;
+}
+.main-center-top .arrow span:hover {
+  background: rgba(0,0,0,.6);
+}
+.main-center-top .arrow{
+  display: none;
+}
+.main-center-top:hover  .arrow{
+  display: block;
+}
+
+
+.main-center-bottom {
+  margin-top: 10px;
+  height: 130px;
+  /*background-color: orange;*/
+}
+.main-center-bottom a {
+  display: inline-block;
+  width: 390px;
+  height: 130px;
+  float: left;
+}
+.main-center-bottom .space2 {
+  margin-left: 10px;
+}
+
+/*页面main部分中间部分结束*/
+
+
+/*页面main部分右侧部分开始*/
+.main-right {
+  height: 480px;
+  width: 190px;
+  background: #fff;
+}
+.main-right-user {
+  height: 100px;
+  border-bottom: 1px solid #E6E6E6;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.main-right-user .user-info {
+  height: 50px;
+  /*background-color: pink;*/
+}
+.main-right-user .user-info .user-info-imga {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  border: 2px solid #C9A65B;
+  border-radius: 25px;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+.main-right-user .user-info a img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.main-right-user .user-info div {
+  margin-left: 8px;
+}
+.main-right-user .user-info .welcomep {
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.main-right-user .user-profit {
+  padding-top: 10px;
+}
+.main-right-user .user-profit a {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  border: 2px solid #e01222;
+  float: left;
+  color: #E01222;
+  text-align: center;
+  line-height: 20px;
+}
+.main-right-user .user-profit a:hover {
+  background-color: #E01222;
+  color:  #fff;
+}
+.main-right-user .user-profit  a.user-profit-one {
+  margin-right: 10px;
+}
+
+
+.main-right-news {
+  height: 149px;
+  border-bottom: 1px solid #E6E6E6;
+  padding: 5px 15px  0px 13px;
+}
+.main-right-news .news-header {
+  height: 21px;
+  line-height: 21px;
+  /*background-color: green;*/
+  border-bottom: 1px solid #E6E6E6;
+  position: relative;
+}
+.main-right-news .news-header .newsLine {
+  display: inline-block;
+  width: 1px;
+  height: 17px;
+  background-color: #DFE0E1;
+  margin: 2px 15px 0px 13px;
+}
+.main-right-news .news-header .newsRedLine  {
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background-color: #DB192B;
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+}
+
+
+.main-right-news .news-content ul {
+  margin-top: 13px;
+}
+.main-right-news .news-content ul li {
+  height: 24px;
+  line-height: 24px;
+}
+
+.main-right-live {
+  overflow: hidden;
+}
+.main-right-live ul {
+  width: 192px;
+}
+.main-right-live ul li {
+  width: 47px;
+  height: 69px;
+  float: left;
+  border: 1px solid #E7E7E7;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  position: relative;
+}
+.main-right-live ul li  i {
+  display: inline-block;
+  width: 15px;
+  height: 21px;
+  /*background-color: red;*/
+  background: url(../images/sprite_fs@1x.png) no-repeat -5px -89px;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+}
+.main-right-live ul li  span {
+  position: absolute;
+  bottom:12px;
+  left: 11px;
+}
+/*页面main部分右侧部分结束*/
